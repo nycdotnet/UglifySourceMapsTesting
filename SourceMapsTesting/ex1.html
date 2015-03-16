@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>TypeScript Uglify Sourcemaps (not uglified)</title>
+</head>
+<body>
+    <h1>TypeScript Uglify Sourcemaps (not uglified)</h1>
+
+    Result: "<span id="content"></span>"
+    <script src="ex1.js"></script>
+    <script>
+        var c1 = SourceMapTesting.Class1.GetClassNameStatic();
+        var element = document.getElementById("content");
+        element.innerHTML = c1;
+    </script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "SourceMapsTesting",
+  "version": "1.0.0",
+  "description": "Tests for TypeScript SourceMaps",
+  "main": "\"\"",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steve Ognibene",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-uglify": "^0.8.0",
+    "grunt-ts": "^3.0.0",
+    "uglify-js": "^2.4.17"
+  }
+}

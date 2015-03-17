@@ -1,8 +1,10 @@
 
+*.pubxml*
 .tscache/
 node_modules/
 obj/
 bin/
+*.user
 
 # Windows image file caches
 Thumbs.db

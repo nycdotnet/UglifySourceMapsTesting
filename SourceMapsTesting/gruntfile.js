@@ -28,7 +28,8 @@
                 options: {
                     sourceMap: true,
                     sourceMapName: 'ex2.min.js.map',
-                    sourceMapIn: 'ex2.js.map'
+                    sourceMapIn: 'ex2.js.map',
+                    mangle: false
                 },
                 files: {
                     'ex2.min.js': ['ex2.js']

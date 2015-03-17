@@ -18,17 +18,26 @@
     <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="ex1.js" />
+    <Content Include="ex2.min.js" />
     <Content Include="ex3.html" />
+    <Content Include="ex3.min.js" />
     <Content Include="index.html" />
     <Content Include="ex1.html" />
-    <Content Include="gruntfile.js" />
+    <Content Include="ex1.js.map" />
+    <Content Include="ex2.min.js.map" />
+    <Content Include="ex3.min.js.map" />
+    <None Include="gruntfile.js" />
     <Content Include="ex2.html" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="Class1.ts" />
+    <Content Include="Class1.ts" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ie11sourcemaps - FTP.pubxml" />
+    <None Include="ie11sourcemaps - Web Deploy %282%29.pubxml" />
+    <None Include="ie11sourcemaps - Web Deploy.pubxml" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
